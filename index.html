@@ -8,19 +8,23 @@
 </head>
 <body>
     <!-- Header and navbar -->
-    <ul class="nav nav-tabs" id="header-tab" role="tablist">
-        <div>
-            <a class="navbar-brand" href="#">
-                <img src="Images/nba-logo.svg" alt="">
-            </a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="conatiner-fluid">
+            <ul class="nav" id="header-tab" role="tablist">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="Images/nba-logo.svg" alt="">
+                    </a>
+                </div>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="team-tab" data-bs-toggle="tab" data-bs-target="#team-tab-pane" type="button" role="tab" aria-controls="team-tab-pane" aria-selected="false">Teams</button>
+                </li>
+            </ul>
         </div>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="team-tab" data-bs-toggle="tab" data-bs-target="#team-tab-pane" type="button" role="tab" aria-controls="team-tab-pane" aria-selected="false">Teams</button>
-        </li>
-    </ul>
+    </nav>
     <!-- Home and Team page content -->
     <div class="tab-content" id="all-tab-content">
         <!-- Home page content -->
