@@ -9,14 +9,12 @@
 </head>
 <body>
     <!-- Header and navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top">
-        <div class="conatiner-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="Images/nba-logo.svg" alt="">
+        </a>
+        <div class="collapse navbar-collapse justify-content-end conatiner-fluid">
             <ul class="nav navbar-nav" id="header-tab" role="tablist">
-                <div>
-                    <a class="navbar-brand" href="#">
-                        <img src="Images/nba-logo.svg" alt="">
-                    </a>
-                </div>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
                 </li>
@@ -32,61 +30,67 @@
         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-sm-4 aside">
-                        <h2>Current Standings</h2>
-                        <h3>Eastern Conference</h3>
-                        <ol>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/boston_celtics_logo.svg">Boston Celtics</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/cleveland_cavaliers_logo.svg">Cleveland Cavaliers</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/milwaukee_bucks_logo.svg">Milwaukee Bucks</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/new_york_knicks_logo.svg">New York Knicks</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/philadelphia_76ers_logo.svg">Philadelphia 76ers</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/indiana_pacers_logo.svg">Indiana Pacers</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/miami_heat_logo.svg">Miami Heat</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/orlando_magic_logo.svg">Orlando Magic</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/chicago_bulls_logo.svg">Chicago Bulls</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/atlanta_hawks_logo.svg">Atlanta Hawks</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/brooklyn_nets_logo.svg">Brooklyn Nets</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/toronto_raptors_logo.svg">Toronto Raptors</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/charlotte_hornets_logo.svg">Charlotte Hornets</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/washington_wizards_logo.svg">Washington Wizards</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/detroit_pistons_logo.svg">Detroit Pistons</li>
-                        </ol>
-                        <h3>Western Conference</h3>
-                        <ol>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/minnesota_timberwolves_logo.svg">Minnesota Timberwolves</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/oklahoma_city_thunder_logo.svg">Oklahoma City Thunder</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/la_clippers_logo.svg">LA Clippers</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/denver_nuggets_logo.svg">Denver Nuggets</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/phoenix_suns_logo.svg">Phoenix Suns</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/new_orleans_pelicans_logo.svg">New Orleans Pelicans</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/dallas_mavericks_logo.svg">Dallas Mavericks</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/sacramento_kings_logo.svg">Sacramento Kings</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/los_angeles_lakers_logo.svg">Los Angeles Lakers</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/golden_state_warriors_logo.svg">Golden State Warriors</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/utah_jazz_logo.svg">Utah Jazz</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/houston_rockets_logo.svg">Houston Rockets</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/memphis_grizzlies_logo.svg">Memphis Grizzlies</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/portland_trail_blazers_logo.svg">Portland Trail Blazers</li>
-                            <li><img class="aside-item-logo" src="Images/Team_Logos/san_antonio_spurs_logo.svg">San Antonio Spurs</li>
-                        </ol>
+                    <div class="col-sm-4">
+                        <div class="p-3 bg-dark aside">
+                            <h2>Current Standings</h2>
+                            <h3 class="pt-2">Eastern Conference</h3>
+                            <ol>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/boston_celtics_logo.svg">Boston Celtics</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/cleveland_cavaliers_logo.svg">Cleveland Cavaliers</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/milwaukee_bucks_logo.svg">Milwaukee Bucks</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/new_york_knicks_logo.svg">New York Knicks</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/philadelphia_76ers_logo.svg">Philadelphia 76ers</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/indiana_pacers_logo.svg">Indiana Pacers</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/miami_heat_logo.svg">Miami Heat</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/orlando_magic_logo.svg">Orlando Magic</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/chicago_bulls_logo.svg">Chicago Bulls</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/atlanta_hawks_logo.svg">Atlanta Hawks</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/brooklyn_nets_logo.svg">Brooklyn Nets</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/toronto_raptors_logo.svg">Toronto Raptors</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/charlotte_hornets_logo.svg">Charlotte Hornets</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/washington_wizards_logo.svg">Washington Wizards</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/detroit_pistons_logo.svg">Detroit Pistons</li>
+                            </ol>
+                            <h3>Western Conference</h3>
+                            <ol>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/minnesota_timberwolves_logo.svg">Minnesota Timberwolves</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/oklahoma_city_thunder_logo.svg">Oklahoma City Thunder</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/la_clippers_logo.svg">LA Clippers</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/denver_nuggets_logo.svg">Denver Nuggets</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/phoenix_suns_logo.svg">Phoenix Suns</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/new_orleans_pelicans_logo.svg">New Orleans Pelicans</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/dallas_mavericks_logo.svg">Dallas Mavericks</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/sacramento_kings_logo.svg">Sacramento Kings</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/los_angeles_lakers_logo.svg">Los Angeles Lakers</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/golden_state_warriors_logo.svg">Golden State Warriors</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/utah_jazz_logo.svg">Utah Jazz</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/houston_rockets_logo.svg">Houston Rockets</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/memphis_grizzlies_logo.svg">Memphis Grizzlies</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/portland_trail_blazers_logo.svg">Portland Trail Blazers</li>
+                                <li><img class="aside-item-logo" src="Images/Team_Logos/san_antonio_spurs_logo.svg">San Antonio Spurs</li>
+                            </ol>
+                        </div>
                     </div>
-                    <div class="col-sm-8 main-content">
-                        <h2>NBA News</h2>
-                        <h3>Damian Lillard wins 2024 Starry 3-Point Contest on final shot</h3>
-                        <img src="https://cdn.nba.com/manage/2024/01/GettyImages-2011424159-2048x1152.jpg" class="img-thumbnail" alt="">
-                        <h3>Heat's Bam Adebayo named Starter in All-Star Game, replacing Joel Embiid</h3>
-                        <img src="https://cdn.nba.com/manage/2024/02/GettyImages-1978656781.jpg" class="img-thumbnail" alt="">
-                        <h3>NBA Fantasy: 6 waiver wire targets ahead of Week 18</h3>
-                        <img src="https://cdn.nba.com/manage/2024/02/TRE.jpg" class="img-thumbnail" alt="">
+                    <div class="col-sm-8">
+                        <div class="p-3 bg-dark main-content">
+                            <h2>Latest NBA Game Highlights</h2>
+                            <h3 class="pt-4">WARRIORS at JAZZ | Full Game Highlights | February 15, 2024</h3>
+                            <div class="video-container">
+                                <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/ClS213B-lVM?si=Ce7gzSmnJmXZ3i4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <h3 class="pt-4">BUCKS at GRIZZLIES | Full Game Highlights | February 15, 2024</h3>
+                            <div class="video-container">
+                                <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/gWFtBYcHcDg?si=Av8vPEiiBbw5gKIr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Team page content -->
-        <div class="tab-pane fade" id="team-tab-pane" role="tabpanel" aria-labelledby="team-tab" tabindex="0">
+        <div class="tab-pane fade team-page" id="team-tab-pane" role="tabpanel" aria-labelledby="team-tab" tabindex="0">
             <h1>NBA Teams</h1>
-            <table id="dynamic-table" class="table">
+            <table id="dynamic-table" class="table table-dark">
                 <thead>
                     <tr>
                         <th scope="col" class="center-item">Team Logo</th>
@@ -103,7 +107,6 @@
                 </tbody>
             </table>
         </div>
-
     </div>
 
     <!-- FOOTER -->
@@ -111,6 +114,7 @@
         <p>Footer</p>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>

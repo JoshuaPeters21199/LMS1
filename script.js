@@ -60,4 +60,15 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 })
 
-console.log(teams);
+let closest_tr;
+
+function setVar(clicked_id) {
+    const identify_row = document.getElementById(clicked_id);
+    closest_tr = identify_row.closest('tr').id;
+
+    // document.getElementById(closest_tr).remove();
+};
+
+function deleteRow() {
+    document.getElementById(closest_tr).remove();
+}
